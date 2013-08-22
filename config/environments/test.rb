@@ -29,5 +29,5 @@ TypoBlog::Application.configure do
 
   Migrator.offer_migration_when_available            = false
 
-  config.active_support.deprecation = :stderr
+  config.active_support.deprecation = :notify
 end
